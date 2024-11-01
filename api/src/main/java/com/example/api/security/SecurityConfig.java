@@ -27,12 +27,14 @@ public class SecurityConfig {
                                 .anyRequest().authenticated())
                 .oauth2Login(oauth2 ->
                         oauth2
-                                .defaultSuccessUrl("http://localhost:5173?logged=true", true)
+                                //.defaultSuccessUrl("http://localhost:5173?logged=true", true)
+                                .defaultSuccessUrl("https://todo-spring-boot-eq0m.onrender.com/?logged=true", true)
                 )
                 .logout(logout ->
                         logout
                                 .logoutUrl("/logout")
-                                .logoutSuccessUrl("http://localhost:5173")
+                                //.logoutSuccessUrl("http://localhost:5173")
+                                .logoutSuccessUrl("https://todo-spring-boot-eq0m.onrender.com/")
                                 .invalidateHttpSession(true)
                                 .deleteCookies("JSESSIONID"))
                 .headers(headers -> headers.frameOptions().disable());
