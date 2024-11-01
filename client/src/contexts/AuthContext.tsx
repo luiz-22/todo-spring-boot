@@ -31,8 +31,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
     const fetchUserInfo = async () => {
         const data = await getUserInfo();
-        console.log(data);
-
         setUser(data);
     };
 
@@ -46,16 +44,19 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     }, []);
 
     const handleLogout = () => {
-        window.location.href = 'http://localhost:8080/logout';
+        //window.location.href = 'http://localhost:8080/logout';
+        window.location.href = 'https://api-todo-sp-latest.onrender.com/logout';
     };
 
 
     const googleLogin = () => {
-        window.location.href = 'http://localhost:8080/oauth2/authorization/google'
+        //window.location.href = 'http://localhost:8080/oauth2/authorization/google'
+        window.location.href = 'https://api-todo-sp-latest.onrender.com/oauth2/authorization/google'
     }
 
     const githubLogin = () => {
-        window.location.href = 'http://localhost:8080/oauth2/authorization/github'
+        //window.location.href = 'http://localhost:8080/oauth2/authorization/github'
+        window.location.href = 'https://api-todo-sp-latest.onrender.com/oauth2/authorization/github'
     }
 
     return (
