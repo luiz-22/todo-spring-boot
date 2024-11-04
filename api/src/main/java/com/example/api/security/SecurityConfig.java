@@ -24,6 +24,7 @@ public class SecurityConfig {
                                 //.requestMatchers("/h2-console/**").permitAll()
                                 .requestMatchers("/swagger-ui.html").permitAll()
                                 .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                                .requestMatchers("/user-info").authenticated()  // Solo permite esta ruta si el usuario está autenticado
                                 .anyRequest().authenticated())
                 .oauth2Login(oauth2 ->
                         oauth2
