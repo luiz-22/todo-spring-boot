@@ -15,7 +15,7 @@ public class WebConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         //.allowedOrigins("http://localhost:5173")
-                        .allowedOrigins("https://todo-spring-boot-eq0m.onrender.com")
+                        .allowedOrigins("https://todo-spring-boot.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true)
