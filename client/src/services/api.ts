@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Id, Task } from "../types/types";
 
 //const BASE_URL = 'http://localhost:8080/tasks';
-const BASE_URL = 'https://api-todo-sp-latest.onrender.com';
+const BASE_URL = 'https://api-todo-sp.onrender.com';
 
 const api = axios.create({  
     baseURL: BASE_URL,
@@ -16,7 +16,7 @@ const api = axios.create({
 export const getUserInfo = async () => {
     try {
         //const response = await api.get(`http://localhost:8080/user-info`);
-        const response = await api.get(`https://api-todo-sp-latest.onrender.com/user-info`);
+        const response = await api.get(`https://api-todo-sp.onrender.com/user-info`);
         return response.data;
     } catch (error) {
         console.error('Error getting user data:', error);

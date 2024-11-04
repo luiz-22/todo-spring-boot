@@ -45,18 +45,18 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
     const handleLogout = () => {
         //window.location.href = 'http://localhost:8080/logout';
-        window.location.href = 'https://api-todo-sp-latest.onrender.com/logout';
+        window.location.href = 'https://api-todo-sp.onrender.com/logout';
     };
 
 
     const googleLogin = () => {
         //window.location.href = 'http://localhost:8080/oauth2/authorization/google'
-        window.location.href = 'https://api-todo-sp-latest.onrender.com/oauth2/authorization/google'
+        window.location.href = 'https://api-todo-sp.onrender.com/oauth2/authorization/google'
     }
 
     const githubLogin = () => {
         //window.location.href = 'http://localhost:8080/oauth2/authorization/github'
-        window.location.href = 'https://api-todo-sp-latest.onrender.com/oauth2/authorization/github'
+        window.location.href = 'https://api-todo-sp.onrender.com/oauth2/authorization/github'
     }
 
     return (
