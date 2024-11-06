@@ -39,4 +39,6 @@ Con estos ajustes, la API estará lista para ejecutarse en modo de desarrollo lo
 1. Ejecuta `Run` para iniciar el servidor de desarrollo.
 2. Puedes abrir el navegador y navega a `http://localhost:8080` para ver si está funcionando correctamente.
 
-## 
+## Desarrollo de la API paso a paso
+
+[Link](https://luisblog.vercel.app/spring-boot-proyecto)
