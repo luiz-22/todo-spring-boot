@@ -1,4 +1,4 @@
-<h1 align="center">Todo App</h1>
+# Todo App
 
 Aplicación de lista de tareas desarrollada con React y Spring Boot, con almacenamiento local y autenticación opcional.
 
