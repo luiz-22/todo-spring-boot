@@ -56,8 +56,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
     const githubLogin = () => {
         //window.location.href = 'http://localhost:8080/oauth2/authorization/github'
-        window.location.href = 'https://api-todo-sp.onrender.com/oauth2/authorization/github'
+        //window.location.href = 'https://api-todo-sp.onrender.com/oauth2/authorization/github'
+        return
     }
+
 
     return (
         <AuthContext.Provider value={{ user, handleLogout, googleLogin, githubLogin }}>

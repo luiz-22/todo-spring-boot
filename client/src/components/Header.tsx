@@ -43,8 +43,7 @@ function Header() {
                         &nbsp;Login
                     </button>
                     <div className="relative group/tooltip">
-                        {/* <button className='flex items-center justify-center' onClick={githubLogin}> */}
-                        <button className='flex items-center justify-center'>
+                        <button className='flex items-center justify-center' onClick={githubLogin}>
                             <GitHubLogo />
                             &nbsp;Login
                         </button>
