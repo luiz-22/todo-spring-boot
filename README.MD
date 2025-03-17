@@ -5,7 +5,7 @@ Aplicación de lista de tareas desarrollada con React y Spring Boot, con almacen
 [Demo](https://todo-spring-boot.vercel.app/)
 
 
-## 🔧 Instalación y Configuración
+## 🔧 Instalación y configuración
 
 ### Cliente
 
