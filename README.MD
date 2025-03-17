@@ -35,4 +35,4 @@ Ejecuta `Run` para iniciar el servidor.
 
 ## 📝Desarrollo de la API paso a paso
 
-[Link](https://luisblog.vercel.app/spring-boot-proyecto)
+[Guía](https://luisblog.vercel.app/spring-boot-proyecto)
