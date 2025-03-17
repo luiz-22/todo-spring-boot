@@ -2,7 +2,7 @@
 
 Aplicación de lista de tareas desarrollada con React y Spring Boot, con almacenamiento local y autenticación opcional.  
 
-[Demo](https://luisblog.vercel.app/spring-boot-proyecto)
+[Demo](https://todo-spring-boot.vercel.app/)
 
 
 ## 🔧 Instalación y Configuración
